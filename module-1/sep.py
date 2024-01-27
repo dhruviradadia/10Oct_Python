@@ -1,0 +1,1 @@
+print("Hi" ,"Hello" ,"this is flower!" ,"sep=""--")
