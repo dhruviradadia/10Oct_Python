@@ -1,5 +1,6 @@
-def file_read(txt_file):
-        txt = open(txt_file)
-        print(txt.read())
 
-file_read('txt_file')
+file=open("myfile.txt","r")
+
+print("read function: ")
+print(file.read())
+print()

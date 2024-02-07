@@ -1,8 +1,6 @@
-def file_read(fname):
-        from itertools import islice
-        with open(fname, "w") as myfile:
-                myfile.write("Dhruvi ")
-                myfile.write("Radadiya")
-        txt = open(fname)
-        print(txt.read())
-file_read('abc.txt')
+f = open("myfile.txt","a")
+str = input("\n\t\tEnter Data TO Append  In myfile.txt : ")
+f.write(str)
+f = open("myfile.txt","r")
+print(f.read())
+f.close()
